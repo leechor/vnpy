@@ -3,17 +3,16 @@ ipch/
 Release/
 
 *.sdf
-*.sln
 *.suo
 *.exp
 *.pdb
-*.filters
-*.vcxproj
 *.cd
-*.vcxproj.filters
+*.o
+*.out
 
 # Python编译文件
 *.pyc
+*.pyo
 
 # WingIDE文件
 *.wpr
@@ -31,20 +30,38 @@ Release/
 # 本地持久化文件
 *.vn
 
-# word文档
-*.doc
-*.docx
-
 # 其他文件
 *.dump
 *.vssettings
 *.klg
+*.lkc
 
 # 不想同步的
 *.local
-vn.ctp/build/*
-vn.lts/build/*
-vnctpmd/
-*。pyd
+*.temp
+*.vt
+*.log
+*.bak
+
+# 编译临时文件夹
+build/
+
+# CMake临时文件
+CMakeCache.txt
+CMakeFiles/
+build/cmake_install.cmake
+build/Makefile
+
+# 目录
 .idea
+.vscode
+.python-version
+.gitignore
+temp/
+.venv
+
+# setup.py install 临时文件
+dist
+*.egg
+*.egg-info
 
